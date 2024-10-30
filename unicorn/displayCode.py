@@ -26,6 +26,7 @@ from .letters import x47
 from .letters import y47
 from .letters import z47
 from .letters import clearLetters
+from .icons import plane
 import time
 
 uh = UnicornHATMini()
@@ -95,7 +96,7 @@ def displayLetter(char,i,x):
                 z47(x+5*i,0,[255,0,0])
         else:
                 a47(x+5*i,0,[255,0,0])
-        
-#displayCode('CAB', 1)
 
-
+def displayIcon(icon):
+        if icon == 'plane':
+                plane(0,0,[255,0,0])

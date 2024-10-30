@@ -1,6 +1,7 @@
 import time
 from FlightRadar24 import FlightRadar24API
 from unicorn.displayCode import displayCode
+from unicorn.displayCode import displayIcon
 
 fr_api = FlightRadar24API()
 
@@ -25,7 +26,7 @@ def scanArea():
         aircode = result["orig_code"] 
         displayCode(aircode,0)
     else:
-        displayCode('ZZZ',0)
+        displayIcon('plane')
         print("no flight found")
 
 while True:

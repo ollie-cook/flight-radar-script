@@ -24,9 +24,9 @@ def scanArea():
 
         print(result)
         aircode = result["orig_code"] 
-        displayCode(aircode,0)
+        displayCode(aircode, 0, [0,240,0])
     else:
-        displayIcon('plane')
+        displayIcon('plane', [0,240,0])
         print("no flight found")
 
 while True:

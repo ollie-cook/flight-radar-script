@@ -6,19 +6,6 @@ uh = UnicornHATMini()
 def clearLetters():
         uh.clear()
 
-def a57(x,y):
-        for i in range(3):
-                for j in range(2):
-                        uh.set_pixel(x+i+1, y+(4*j), 255, 0, 0)
-
-        for i in range(2):
-                for j in range(6):
-                        uh.set_pixel(x+(4*i), y+j+1, 255, 0, 0)
-
-
-        uh.show()
-        time.sleep(5)
-
 def a47(x,y,rgb,t=0):
         for i in range(2):
                 for j in range(2):

@@ -33,70 +33,70 @@ uh = UnicornHATMini()
 
 uh.set_brightness(0.3)
 
-def displayCode(str, x):
+def displayCode(str, x, colour):
         i = 0
         for char in str:
-                displayLetter(char,i,x)
+                displayLetter(char, i, x, colour)
                 i = i+1
         time.sleep(0.5)
         clearLetters()
 
-def displayLetter(char,i,x):
+def displayLetter(char, i, x, colour):
         if char == 'A':
-                a47(x+5*i,0,[255,0,0])
+                a47(x+5*i,0,colour)
         elif char == 'B':
-                b47(x+5*i,0,[255,0,0])
+                b47(x+5*i,0,colour)
         elif char == 'C':
-                c47(x+5*i,0,[255,0,0])
+                c47(x+5*i,0,colour)
         elif char == 'D':
-                d47(x+5*i,0,[255,0,0])
+                d47(x+5*i,0,colour)
         elif char == 'E':
-                e47(x+5*i,0,[255,0,0])
+                e47(x+5*i,0,colour)
         elif char == 'F':
-                f47(x+5*i,0,[255,0,0])
+                f47(x+5*i,0,colour)
         elif char == 'G':
-                g47(x+5*i,0,[255,0,0])
+                g47(x+5*i,0,colour)
         elif char == 'H':
-                h47(x+5*i,0,[255,0,0])
+                h47(x+5*i,0,colour)
         elif char == 'I':
-                i47(x+5*i,0,[255,0,0])
+                i47(x+5*i,0,colour)
         elif char == 'J':
-                j47(x+5*i,0,[255,0,0])
+                j47(x+5*i,0,colour)
         elif char == 'K':
-                k47(x+5*i,0,[255,0,0])
+                k47(x+5*i,0,colour)
         elif char == 'L':
-                l47(x+5*i,0,[255,0,0])
+                l47(x+5*i,0,colour)
         elif char == 'M':
-                m47(x+5*i,0,[255,0,0])
+                m47(x+5*i,0,colour)
         elif char == 'N':
-                n47(x+5*i,0,[255,0,0])
+                n47(x+5*i,0,colour)
         elif char == 'O':
-                o47(x+5*i,0,[255,0,0])
+                o47(x+5*i,0,colour)
         elif char == 'P':
-                p47(x+5*i,0,[255,0,0])
+                p47(x+5*i,0,colour)
         elif char == 'Q':
-                q47(x+5*i,0,[255,0,0])
+                q47(x+5*i,0,colour)
         elif char == 'R':
-                r47(x+5*i,0,[255,0,0])
+                r47(x+5*i,0,colour)
         elif char == 'S':
-                s47(x+5*i,0,[255,0,0])
+                s47(x+5*i,0,colour)
         elif char == 'T':
-                t47(x+5*i,0,[255,0,0])
+                t47(x+5*i,0,colour)
         elif char == 'U':
-                u47(x+5*i,0,[255,0,0])
+                u47(x+5*i,0,colour)
         elif char == 'V':
-                v47(x+5*i,0,[255,0,0])
+                v47(x+5*i,0,colour)
         elif char == 'W':
-                w47(x+5*i,0,[255,0,0])
+                w47(x+5*i,0,colour)
         elif char == 'X':
-                x47(x+5*i,0,[255,0,0])
+                x47(x+5*i,0,colour)
         elif char == 'Y':
-                y47(x+5*i,0,[255,0,0])
+                y47(x+5*i,0,colour)
         elif char == 'Z':
-                z47(x+5*i,0,[255,0,0])
+                z47(x+5*i,0,colour)
         else:
-                a47(x+5*i,0,[255,0,0])
+                a47(x+5*i,0,colour)
 
-def displayIcon(icon):
+def displayIcon(icon, colour):
         if icon == 'plane':
-                plane(0,0,[255,0,0])
+                plane(0,0, colour)

@@ -14,10 +14,6 @@ def plane(x,y,rgb,t=0):
                 for i in range(10):
                         uh.set_pixel((x+1+i) % 17, y+2+j, rgb[0], rgb[1], rgb[2])
 
-        for i in range(2):
-                for j in range(2):
-                        uh.set_pixel()
-
         for c in range (2):
                 for j in range (2):
                         uh.set_pixel(x+5, y+j+5*c, rgb[0], rgb[1], rgb[2])

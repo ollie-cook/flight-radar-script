@@ -24,7 +24,7 @@ def scanArea():
 
         print(result)
         aircode = result["orig_code"] 
-        displayCode(aircode, 0, [0,240,0])
+        displayCode(aircode, 0, [240,0,0])
         time.sleep(60)
     else:
         displayIcon('plane', [0,240,0])
